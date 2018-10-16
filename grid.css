@@ -1,0 +1,117 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 290px auto;
+    grid-column-gap: 54px;
+
+}
+.colum1{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 50px 50px 50px 50px;
+    box-shadow: 2px 2px 2px 3px;
+    /* background-color: rgb(129, 125, 125); */
+    background-color:lightgrey;
+}
+.col-home1{
+    background-color: green;
+}
+/* here i make my colum1 grid item 1 to be stacknan */
+.colum1 a:first-of-type{
+    background-color: green;
+    color:white;
+
+}
+.colum1>a:hover{
+    color: white;
+    background-color: green;
+    cursor: pointer;
+    
+}
+/* up and down, right and left padding for colum1 */
+.colum1 a{
+    padding: 15px 20px;
+}
+
+
+.grid-container2{
+    display: grid;
+    grid-template-columns: auto;
+    grid-row-gap: 40px;
+}
+.colum2{
+    display: grid;
+    grid-template-columns: 100px 100px 100px auto 100px;
+    background-color:rgb(48, 46, 46)
+}
+/* up and down, right and left padding for colum2 */
+.colum2 a{
+    padding: 20px 13px;
+}
+/* here i make my colum1 grid item 1 to be stacknan */
+.colum2 a:first-of-type{
+    background-color: green;
+    color: white;
+}
+
+.colum2 a:hover:nth-of-type(1){
+    cursor: pointer;
+}
+.colum2 a:hover:nth-of-type(2){
+    background-color:lightgrey;
+    color:white;
+    cursor: pointer;
+    
+}
+.colum2 a:hover:nth-of-type(3){
+    background-color:lightgrey;
+    color:white;
+    cursor: pointer;
+}
+.colum2 a:nth-of-child(4){
+    background-color:rgb(48, 46, 46);
+}
+.colum2 a:hover:nth-of-type(5){
+    background-color:lightgrey;
+    color:white;
+    cursor: pointer;
+}
+.colum3{
+    display: grid;
+    grid-template-columns: 100px 100px 100px auto 100px;
+    background-color:rgba(75, 68, 68, 0.145);
+   
+} 
+.colum3 a{
+    padding: 20px 13px;
+}
+
+    .colum3 a:hover:nth-of-type(1){
+        background-color:lightgrey;
+        color:white;
+        cursor: pointer;
+    }
+    .colum3 a:hover:nth-of-type(2){
+        background-color:lightgrey;
+        color:white;
+        cursor: pointer;
+    }
+    .colum3 a:hover:nth-child(3){
+        cursor: pointer;
+        
+        
+    }
+    .colum3 a:hover:nth-of-type(5){
+        background-color:lightgrey;
+        color:white;
+        cursor: pointer;
+    }
+.colum2 a:first-of-type{
+    background-color: green;
+    color: white;
+}
+.colum3 a:nth-child(3){
+    background-color: rgb(71, 73, 206);
+    color: white;   
+     
+}
+
